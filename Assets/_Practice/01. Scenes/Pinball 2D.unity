@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 55641516}
   - component: {fileID: 55641517}
   - component: {fileID: 55641518}
+  - component: {fileID: 55641519}
   m_Layer: 0
   m_Name: Point 10
   m_TagString: Point10
@@ -197,7 +198,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 1, g: 0.3125532, b: 0.28616333, a: 1}
+  m_Color: {r: 1, g: 0.7395662, b: 0.48742133, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -257,6 +258,18 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &55641519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55641515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96563f7c8b4c30b46aa3acc358716f6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &164684098
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,6 +1197,7 @@ GameObject:
   - component: {fileID: 1335740721}
   - component: {fileID: 1335740722}
   - component: {fileID: 1335740723}
+  - component: {fileID: 1335740724}
   m_Layer: 0
   m_Name: Point 10
   m_TagString: Point10
@@ -1251,7 +1265,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 1, g: 0.3125532, b: 0.28616333, a: 1}
+  m_Color: {r: 1, g: 0.7395662, b: 0.48742133, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1311,6 +1325,18 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1335740724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335740720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96563f7c8b4c30b46aa3acc358716f6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1456699028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1322,6 +1348,7 @@ GameObject:
   - component: {fileID: 1456699029}
   - component: {fileID: 1456699030}
   - component: {fileID: 1456699031}
+  - component: {fileID: 1456699032}
   m_Layer: 0
   m_Name: Point 30
   m_TagString: Point30
@@ -1452,6 +1479,18 @@ PolygonCollider2D:
       - {x: 0.5, y: 0}
       - {x: 0.25, y: 0.43359375}
   m_UseDelaunayMesh: 0
+--- !u!114 &1456699032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456699028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96563f7c8b4c30b46aa3acc358716f6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1860400476
 GameObject:
   m_ObjectHideFlags: 0
@@ -1463,6 +1502,7 @@ GameObject:
   - component: {fileID: 1860400477}
   - component: {fileID: 1860400478}
   - component: {fileID: 1860400479}
+  - component: {fileID: 1860400480}
   m_Layer: 0
   m_Name: Point 50
   m_TagString: Point50
@@ -1591,6 +1631,18 @@ PolygonCollider2D:
       - {x: 0, y: -0.25}
       - {x: 0.5, y: 0}
   m_UseDelaunayMesh: 0
+--- !u!114 &1860400480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860400476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96563f7c8b4c30b46aa3acc358716f6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1954989291
 GameObject:
   m_ObjectHideFlags: 0
@@ -2071,6 +2123,7 @@ GameObject:
   - component: {fileID: 2082615203}
   - component: {fileID: 2082615204}
   - component: {fileID: 2082615205}
+  - component: {fileID: 2082615206}
   m_Layer: 0
   m_Name: Point 30
   m_TagString: Point30
@@ -2201,6 +2254,18 @@ PolygonCollider2D:
       - {x: 0.5, y: 0}
       - {x: 0.25, y: 0.43359375}
   m_UseDelaunayMesh: 0
+--- !u!114 &2082615206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082615202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96563f7c8b4c30b46aa3acc358716f6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2112745341
 GameObject:
   m_ObjectHideFlags: 0

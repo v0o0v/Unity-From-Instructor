@@ -18,6 +18,13 @@ public class Ball : MonoBehaviour
     
     private void OnCollisionEnter2D(Collision2D other)
     {
+        var changeColor = other.gameObject.GetComponent<ChangeColor>();
+
+        if (changeColor != null) // 예외 처리
+        {
+            changeColor.HitColor();
+        }
+        
         switch (other.gameObject.tag)
         {
             case "Point10":
