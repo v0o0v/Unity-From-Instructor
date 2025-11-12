@@ -23,14 +23,14 @@ public class AmongusController : MonoBehaviour
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
         dir = new Vector3(h, 0, v).normalized;
-        
-        // if (h != 0 || v != 0)
-        //     anim.SetBool("IsWalk", true);
-        // else
-        //     anim.SetBool("IsWalk", false);
 
-        bool isMove = h != 0 || v != 0;
-        anim.SetBool("IsWalk", isMove);
+        if (h != 0 || v != 0) // 입력이 있을 때
+            anim.SetBool("IsWalk", true); // 걷는 애니메이션 실행
+        else // 입력이 없을 때
+            anim.SetBool("IsWalk", false); // 걷는 애니메이션 종료
+
+        // bool isMove = h != 0 || v != 0;
+        // anim.SetBool("IsWalk", isMove);
         
         Jump();
     }
@@ -63,6 +63,7 @@ public class AmongusController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            anim.SetTrigger("Jump"); // 점프 애니메이션 실행
             rb.AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
         }
     }
